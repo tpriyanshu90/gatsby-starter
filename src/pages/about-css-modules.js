@@ -3,8 +3,6 @@ import styles from "./about-css-modules.module.css"
 import Container from "../components/container"
 import { Link } from "gatsby"
 
-console.log(styles)
-
 const User = props => (
   <div className={styles.user}>
     <img src={props.avatar} className={styles.avatar} alt="" />
