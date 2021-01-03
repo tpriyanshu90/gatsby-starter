@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default function Home() {
   return (
-    <div style={{ color: `purple` }}>
+    <Layout>
       <Link to="/contact/">Contact</Link>
       <br></br>
       <Link to="/about-css-modules/">About CSS Module</Link>
@@ -19,6 +20,6 @@ export default function Home() {
         What do I like to do? Lots of course but definitely enjoy building
         websites.
       </p>
-    </div>
+    </Layout>
   )
 }
